@@ -1,0 +1,33 @@
+html, body{
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(171, 236, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    text-align: center;
+    background-color: rgb(210, 240, 210);
+    width:25%;
+    border: 5px double pink;
+}
+img{
+    flex-flow: center wrap;
+}
+h1{
+    color: rgb(240, 182, 192);
+}
+h2{
+    color: rgb(235, 181, 161);
+}
+button{
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    width: 100px;
+    cursor: pointer;
+}
